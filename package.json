@@ -1,0 +1,14 @@
+{
+  "name": "name",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --serveStatic dist --files='./dist/**/*.html,./dist/**/*.css,./dist/**/*.js'"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
